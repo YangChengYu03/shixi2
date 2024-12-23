@@ -144,7 +144,6 @@ namespace 实习二
             row3["指标"] = PNK[2];
             myDataTable.Rows.Add(row3);
             dataGridView1.DataSource = myDataTable;
-            Marshal.ReleaseComObject(myDataTable);
         }
 
         private List<double> getTargetPNKValue(double Target_value) {
